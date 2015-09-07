@@ -1,0 +1,8 @@
+[
+  {
+    "id" : "scsscompile",
+    "caption" : "Compile selected SCSS",
+    "command" : "scsscompile"
+  }
+]
+
