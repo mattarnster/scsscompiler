@@ -7,7 +7,7 @@ class scsscompileCommand(sublime_plugin.TextCommand):
             if not region.empty():  
                 # Get the selected text  
                 s = self.view.substr(region)
-                p = Popen(['scss'], stdout=PIPE, stdin=PIPE, stderr=PIPE)
+                p = Popen(['/usr/local/bin/scss'], stdout=PIPE, stdin=PIPE, stderr=PIPE)
                 stdout_data = p.communicate(input=bytes(s, 'UTF-8'))[0]
                 # print(stdout_data)
                 stdout_data = str(stdout_data).replace('\\n', '\n')
