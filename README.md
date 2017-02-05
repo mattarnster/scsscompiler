@@ -11,7 +11,7 @@ Select the SCSS which you wish to compile, right click and select "Compile selec
 
 Open a Terminal window and run the following command:
 ```
-sudo gem install scss
+sudo gem install sass
 ```
 This script assumes that the `scss` binary is installed in the following location: `/usr/local/bin`.
 
@@ -23,5 +23,5 @@ Download and install the [Ruby installer](https://rubyinstaller.org/).
 
 Open an Admin Command or PowerShell window and run the following command:
 ```
-gem install scss
+gem install sass
 ```
