@@ -1,8 +1,18 @@
 [
   {
-    "id" : "scsscompile",
-    "caption" : "Compile selected SCSS",
-    "command" : "scsscompile"
-  }
+  "caption": "Compile to CSS",
+  "id": "scsscompile",
+  "children":
+		[
+			{
+		    "caption" : "Compile selected SCSS",
+		    "command" : "scsscompile",
+		  },
+      {
+      	"caption": "Compile selected SCSS (minify)",
+      	"command": "scsscompile",
+      	"args": { "minify": "True" }
+      }   
+  	]
+	}
 ]
-
