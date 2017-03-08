@@ -1,0 +1,15 @@
+SCSS Compiler 1.1.0
+-------------------
+
+Thanks for using SCSS Compiler. We've made some changes to the project, including adding Windows support!
+
+IMPORTANT - PLEASE READ!
+------------------------
+Due to the changes we have made you may need some extra setup steps in order
+for the plugin to work again.
+
+For Windows:
+Please see instructions here: https://github.com/mattarnster/scsscompiler
+
+For Linux/Mac OS X:
+We're assuming the binary is located at /usr/local/bin/scss
