@@ -1,0 +1,33 @@
+SCSS Compiler - Install
+-----------------------
+
+Thanks for installing SCSS Compiler.
+
+To get started, please follow the operating system specific instructions below:
+
+For WINDOWS:
+Download and install the Ruby installer (https://rubyinstaller.org/).
+
+Ensure the "Add Ruby executables to your PATH" is enabled during the
+installation process.
+
+Open an Admin Command or PowerShell window and run the following command:
+
+gem install sass
+
+-----------------------------------
+
+For LINUX/OSX:
+Open a Terminal window and run the following command:
+
+sudo gem install sass
+We assume that the scss binary is installed in the following location:
+/usr/local/bin.
+
+-----------------------------------
+
+You can then select the SCSS you wish to compile, right click and use the
+context menu to select Compile SCSS or Compile SCSS with minification.
+
+If you have any issues or requests, please visit:
+https://github.com/mattarnster/scsscompiler
