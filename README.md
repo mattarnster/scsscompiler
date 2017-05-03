@@ -1,5 +1,7 @@
 # SCSS Compiler
 
+Initial idea and inspiration by [@sfdrummer](http://www.twitter.com/sfdrummer), with development help from [@kakersuk](https://github.com/KakersUK).
+
 A Sublime Text 3 plugin which compiles the selected SCSS to CSS in your document window.
 This plugin depends on ruby being installed and the `scss` compiler binary being installed via ruby gems.
 
